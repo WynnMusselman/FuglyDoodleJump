@@ -1,0 +1,72 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #e0e0e0, #828282, #5c5c5c);
+    height: 100vh;
+}
+
+.grid{
+    /* invisible at first */
+    /* display: none; */
+
+    width: 400px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+
+    margin: 3% auto;
+    background-image: url("src/background.png");
+    border: 2px solid #1c1e30;
+
+    /* score font */
+    font: 30px "Comic Sans MS", sans-serif;
+}
+
+#score{
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center;
+}   
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    position: absolute;
+
+    background-image: url("src/doodler.png");
+
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+
+    background-image: url("src/platform.png");
+}
+
+h1{
+    margin: 10% 1%;
+}
+
+#startButton{
+    padding: 5% 7%;
+    margin: 10%;
+    border: 4px dashed #1c1e30;
+    font: italic 30px "Comic Sans MS", sans-serif;
+}
+
+
+#startButton:hover{
+    background-color: darkgreen;
+    color: greenyellow;
+    border-color: fuchsia;
+}
+
+
